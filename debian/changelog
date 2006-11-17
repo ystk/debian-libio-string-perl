@@ -1,0 +1,53 @@
+libio-string-perl (1.08-2) unstable; urgency=low
+
+  * adopted for Debian PErl Group
+  * debian/control: debhelper increased to (>= 5)
+  * debian/compat: increased to 5
+
+ -- Krzysztof Krzyzaniak (eloy) <eloy@debian.org>  Fri, 17 Nov 2006 15:15:19 +0100
+
+libio-string-perl (1.08-1) unstable; urgency=low
+
+  * Hijack package
+  * New upstream release
+  * debian/control:
+      - Switched Section to perl
+      - Moved debhelper to Build-Depends
+      - Updated to Standards-Version 3.7.2
+  * debian/compat - Added and set to 4
+  * debian/rules  - Altered to suit my 'standard' build methods
+  * debian/watch  - Updated to version 2
+
+ -- Stephen Quinney <sjq@debian.org>  Fri, 16 Jun 2006 11:50:32 +0100
+
+libio-string-perl (1.05-1) unstable; urgency=low
+
+  * New release
+
+ -- Matt Hope <dopey@debian.org>  Mon, 12 Apr 2004 23:53:26 +1000
+
+libio-string-perl (1.02-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Matt Hope <dopey@debian.org>  Sat,  1 Feb 2003 03:13:51 +1100
+
+libio-string-perl (1.01-3) unstable; urgency=low
+
+  * Updated maintainer email address.
+  * Updated standards version
+
+ -- Matt Hope <dopey@debian.org>  Sat,  2 Nov 2002 15:37:59 +1100
+
+libio-string-perl (1.01-2) unstable; urgency=low
+
+  * Fixed mistake in rules, now builds properly with target arch-indep,
+    closes: #122558
+
+ -- Matt Hope <dopey@quickstix.com.au>  Thu,  6 Dec 2001 10:10:15 +1100
+
+libio-string-perl (1.01-1) unstable; urgency=low
+
+  * Initial Release, closes: #120471
+
+ -- Matt Hope (Dopey) <dopey@quickstix.com.au>  Wed,  7 Nov 2001 16:38:11 +1100
