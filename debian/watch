@@ -1,2 +1,2 @@
-version=2
-http://www.cpan.org/authors/id/GAAS/IO-String-(.*)\.tar\.gz	debian	uupdate
+version=3
+https://metacpan.org/release/IO-String/   .*/IO-String-v?(\d[\d.]+)\.(?:tar(?:\.gz|\.bz2)?|tgz|zip)	debian	uupdate

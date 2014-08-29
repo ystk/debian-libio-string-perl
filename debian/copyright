@@ -20,10 +20,14 @@ modify it under the same terms as Perl itself.
 
 ------------------------------------------------------
 
-Perl is distributed either under the GNU GPL License, or the
-Artistic License.
+Perl is distributed under the terms of either:
 
-On a GNU/Linux system, the complete GNU GPL can be found in
-`/usr/share/common-licenses/GPL', the Artistic Licence
-`/usr/share/common-licenses/Artistic', and Perl's license,
-`/usr/share/doc/perl/copyright'
+   a) the GNU General Public License as published by the Free Software
+      Foundation; either version 1, or (at your option) any later
+      version, or
+
+   b) the "Artistic License" which comes with Perl.
+
+On Debian GNU/Linux systems, the complete text of the GNU General
+Public License can be found in `/usr/share/common-licenses/GPL-1' and
+the Artistic Licence in `/usr/share/common-licenses/Artistic'.

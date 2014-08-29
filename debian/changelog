@@ -1,3 +1,51 @@
+libio-string-perl (1.08-3) unstable; urgency=low
+
+  * Team upload
+
+  [ gregor herrmann ]
+  * debian/control: Added: Vcs-Svn field (source stanza); Vcs-Browser
+    field (source stanza); Homepage field (source stanza). Removed: XS-
+    Vcs-Svn fields.
+  * debian/rules: delete /usr/lib/perl5 only if it exists.
+  * debian/watch: use dist-based URL.
+  * debian/control: Changed: Switched Vcs-Browser field to ViewSVN
+    (source stanza).
+  * debian/control: Added: ${misc:Depends} to Depends: field.
+
+  [ Nathan Handler ]
+  * debian/watch: Update to ignore development releases.
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ gregor herrmann ]
+  * debian/control: update {versioned,alternative} (build) dependencies.
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Axel Beckert ]
+  * Switch to source format "3.0 (quilt)"
+  * Update debian/copyright to mention the correct Perl license terms
+  * Bump debhelper compatibility to 9
+    + Update versioned debhelper build-dependency accordingly
+  * Revamp debian/rules:
+    + Fix lintian warning debian-rules-missing-recommended-target
+    + Replace "dh_clean -k" by "dh_prep"
+    + Use dh_auto_{configure,build,test,install,clean}
+      - Fixes lintian warning debian-rules-makemaker-prefix-is-deprecated
+    + Drop now obsolete stamp file parameters from dh_clean
+    + Move dh_installdocs parameter to debian/docs
+    + Drop now obsolete dh_installchangelogs parameter
+    + Remove no more needed /usr/lib/perl5 handling
+    + Remove no more nededed variables
+    + Finally switch to minimal dh-style debian/rules file
+  * Fix lintian warning copyright-refers-to-symlink-license
+  * Bump Standards-Version to 3.9.5 (no further changes)
+
+ -- Axel Beckert <abe@debian.org>  Fri, 13 Dec 2013 22:18:27 +0100
+
 libio-string-perl (1.08-2) unstable; urgency=low
 
   * adopted for Debian PErl Group

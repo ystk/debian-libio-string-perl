@@ -1,16 +1,20 @@
 Source: libio-string-perl
-Section: perl
-Priority: optional
-Build-Depends: debhelper (>= 5)
-Build-Depends-Indep: perl (>= 5.6.0-17)
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
 Uploaders: Krzysztof Krzyzaniak (eloy) <eloy@debian.org>
-Standards-Version: 3.7.2
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 9~)
+Build-Depends-Indep: perl
+Standards-Version: 3.9.5
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/libio-string-perl.git
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libio-string-perl.git
+Homepage: https://metacpan.org/release/IO-String/
 
 Package: libio-string-perl
 Architecture: all
-Depends: ${perl:Depends}
-Description:  Emulate IO::File interface for in-core strings
+Depends: ${misc:Depends},
+         ${perl:Depends}
+Description: Emulate IO::File interface for in-core strings
  The IO::String module provide the IO::File interface for in-core
  strings.  An IO::String object can be attached to a string, and
  will make it possible to use the normal file operations for reading or
@@ -24,3 +28,4 @@ Description:  Emulate IO::File interface for in-core strings
  are not available; new_from_fd, fdopen, format_write,
  format_page_number, format_lines_per_page, format_lines_left,
  format_name, format_top_name.
+
